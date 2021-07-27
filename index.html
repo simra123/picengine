@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="Assets/android-chrome-192x192.png" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="apple-touch-icon" href="Assets/apple-touch-icon.png" />
+        <meta name="keywords" content="Image Compression, Online image compression, image optimizer">
+        <meta name="author" content="Satak Support">
+        <meta name="description" content="Pic Engine optimizes images and therefore makes websites load faster and save bandwidth. This results in higher search engine rankings and more visitors.">
+        <title>Pic Engine - Fast image compression</title>
+        <!--favicon-->
+        <link rel="shortcut icon" type="image/png" href="">
+        <!--bootstrap css-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--main css-->
+        
+        <link rel="stylesheet" type="text/css" href="Css/styles.css">
+        
+        <!--responsive css-->
+        <link rel="stylesheet" type="text/css" href="Css/css-responsive.css">
+
+        <!--font awesome css-->
+<script async data-apikey="8680e917392f4bcb7f989c42251892" data-cookieless src="https://cdn.jsdelivr.net/npm/hockeystack@latest/hockeystack.min.js"></script>
+
+    </head>
+      
+<body>
+    <header id="header">
+        <!--start mainmenu-->
+        <div class="mainmenu">
+            <nav class="navbar navbar-expand-md navbar-light bg-white">
+                <div class="container">
+                  <a href="#" class="navbar-brand">
+                      <img src="Assets/logo-png.png" alt="logo" width="150" class="img-fluid">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                    <div class="collapse navbar-collapse " id="navbarCollapse">
+                      <div class="navbar-nav ml-auto">
+                            <ul class="navbar-nav mr-5 text-center"><li class="nav-item">
+                                    <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="1">Pricing plan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="2">Api</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="3">How to use</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="4">Faq</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="5">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                     
+                    </div>
+                  </div>
+              </nav>
+        </div>
+        <!--end mainmenu-->
+    </header>
+    <!--end header-->
+   <!-- start banner main -->
+   <div class="main pt-5">
+       <div class="container">
+            <div class="row pt-5 mt-3">
+           
+               
+                <div class="col-md-8 py-5 " id="live-text">
+                    <h2 >We compress the web. <br>
+                    <span class="wrap typewrite"  data-period="2000" data-type='[ "Lighter images", "Better resolution", "Better quality" ]'></span>
+                     </h2>
+                    <h4 class="my-5"> Speed up your website with lighter images.</h4>
+                        <div class="row">
+                         
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="sel1">File Type<span>*</span> </label>
+                                    <select class="form-control" onchange="changeFormat(this)" id="format">
+                                        <option value=".png">PNG</option>
+                                        <option value=".jpg">JPG</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6" >
+                                <div class="form-group">
+                                    <label for="sel1">Select Quality<span>*</span></label>
+                                    <select class="form-control select" onchange="changeQuality(this)" id="select">
+                                        <option value="0.75">Normal</option>
+                                        <option value="0.50">Aggressive</option>
+                                        <option value="0.25">Ultra</option>
+                                    </select>
+                                </div> 
+                            </div>
+                            <div class="col-md-12" id="link-container">
+                            <button class="btn btn-secondary btn-block" id="compressbtn">Compress Image</button>
+                            </div>
+                        </div>
+                </div>
+                 <!--************ for mobile screen only********** -->
+                 <div class="col-12 d-sm-block d-md-none" >
+
+                    <div class="">
+                        <div class="upload ">
+
+                            <div class="image-upload-wrap">
+                                <input type="file" class=" form-control file-upload-input" id="upload" multiple data-show-upload="true" data-show-caption="true"/>
+
+                                <div class="drag-text">
+                                <svg class="mx-auto" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="Main-module--HeroUploaderIcon--DzZkp" width="60" height="30" viewBox="0 0 40 25" fill="none"><path d="M31.5785 10.3741C31.0091 10.3741 30.4836 10.4167 29.9142 10.5442C29.9142 10.5017 29.9142 10.5017 29.9142 10.4592C29.9142 4.71939 25.1402 0 19.2712 0C14.1906 0 9.8546 3.48639 8.84724 8.33333C8.71584 8.33333 8.58445 8.33333 8.49685 8.33333C3.81044 8.33333 0 12.0748 0 16.6667C0 21.216 3.72285 24.915 8.32166 25H16.2929V24.0221V19.2602H13.3147C13.0081 19.2602 12.7453 19.0901 12.6139 18.835C12.4825 18.5799 12.4825 18.2823 12.6577 18.0697L18.877 9.31122C19.0084 9.09864 19.2712 8.97109 19.4902 8.97109C19.753 8.97109 19.972 9.09864 20.1034 9.31122L26.3227 18.0697C26.4103 18.1973 26.4541 18.3673 26.4541 18.4949C26.4541 18.6224 26.4103 18.75 26.3665 18.835C26.2351 19.0901 25.9723 19.2602 25.6658 19.2602H22.7751V24.0221V25H31.6661C35.5641 24.9575 38.7614 21.8963 39.0242 18.1548V17.2619C38.7614 13.3929 35.5203 10.3741 31.5785 10.3741Z" fill="#ec850a"></path></svg>
+                                
+                                <p id="file-name">upload image</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ******for desktop screen only  ********-->
+                <div class="col-md-4 d-md-block d-lg-block  d-none" >
+                    <div class="">
+                        <div class="upload ">
+
+                            <div class="image-upload-wrap">
+                                <input type="file" class=" form-control file-upload-input" id="upload1" multiple data-show-upload="true" data-show-caption="true"/>
+                               
+                                <div class="drag-text">
+                                    <svg class="mx-auto" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="Main-module--HeroUploaderIcon--DzZkp" width="60" height="30" viewBox="0 0 40 25" fill="none"><path d="M31.5785 10.3741C31.0091 10.3741 30.4836 10.4167 29.9142 10.5442C29.9142 10.5017 29.9142 10.5017 29.9142 10.4592C29.9142 4.71939 25.1402 0 19.2712 0C14.1906 0 9.8546 3.48639 8.84724 8.33333C8.71584 8.33333 8.58445 8.33333 8.49685 8.33333C3.81044 8.33333 0 12.0748 0 16.6667C0 21.216 3.72285 24.915 8.32166 25H16.2929V24.0221V19.2602H13.3147C13.0081 19.2602 12.7453 19.0901 12.6139 18.835C12.4825 18.5799 12.4825 18.2823 12.6577 18.0697L18.877 9.31122C19.0084 9.09864 19.2712 8.97109 19.4902 8.97109C19.753 8.97109 19.972 9.09864 20.1034 9.31122L26.3227 18.0697C26.4103 18.1973 26.4541 18.3673 26.4541 18.4949C26.4541 18.6224 26.4103 18.75 26.3665 18.835C26.2351 19.0901 25.9723 19.2602 25.6658 19.2602H22.7751V24.0221V25H31.6661C35.5641 24.9575 38.7614 21.8963 39.0242 18.1548V17.2619C38.7614 13.3929 35.5203 10.3741 31.5785 10.3741Z" fill="#ec850a"></path></svg>
+                                    <p id="file-name1">upload image</p>
+                                     
+
+                                </div>
+                            </div>
+                                
+                        </div>
+                    </div>
+                </div>
+           </div>    
+        </div>    
+    </div>       
+    <!-- main section ends here -->
+
+    <!-- ***image slider starts from here*** -->
+    
+    <div class="img-slider pb-5">
+      
+        <div class="container">
+            <div class="row">
+                 <div class="col-6 p-0"> <i>Before : 400kbs</i> </div>
+                 <div class="col-6 p-0 text-right"> <i> After : 101kbs</i></div>
+                <div class="col-12">
+                    <div class='img background-img'></div>
+                    <div class='img foreground-img'></div>
+                    <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider">
+                    <div class='slider-button'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- image slider ends here -->
+
+    <!-- content section -->
+    <div class="container" id="content-section">
+        <div class="row one ">
+            <div class="col-md-8">
+                <img src="Assets/img1.jpg" alt="0452" class="img-fluid">
+                <div class="row">
+                 <div class="col-6 "> <i>Before : 680kbs</i> </div>
+                 <div class="col-6  text-right"> <i> After : 190kbs</i></div>
+                </div>
+            </div>
+            <div class="col-md-4 c7899" >
+                <h3>Advanced Image Compression </h3>
+                <p >Your images can be reduced almost three-quarters in size using Pic Engine, while maintaining excellent quality. In most cases, human eyes cannot detect changes. 
+                </p>
+            </div>
+        </div>
+        <div class="row two ">
+            <div class="col-12 d-md-none d-sm-block">
+                <img src="Assets/img2.jpg" alt="0452" class="img-fluid">
+                <div class="row">
+                    <div class="col-6 "> <i>Before : 390kbs</i> </div>
+                    <div class="col-6  text-right"> <i> After : 100kbs</i></div>
+                   </div>
+            </div>
+            <div class="col-md-4 c7899" >
+                <h3>Speed Up Your Websites </h3>
+                <p >With Normal, Aggressive and Ultra levels, keep the best quality possible or seek the ultimate performance. As a result, your images will take up about 50% less space and your bandwidth savings could be enormous,‌ ‌depending‌ ‌on‌ ‌how‌ ‌many‌ ‌page‌ ‌impressions‌ ‌you‌ ‌get.
+                </p>
+            </div>
+            <div class="col-md-8 d-md-block d-lg-block d-none">
+                <img src="Assets/img2.jpg" alt="0452" class="img-fluid">
+                <div class="row">
+                    <div class="col-6 "> <i>Before : 390kbs</i> </div>
+                    <div class="col-6  text-right"> <i> After : 100kbs</i></div>
+                   </div>
+            </div>
+        </div>
+        <div class="row three ">
+            <div class="col-md-8 ">
+                <img src="Assets/img3.jpg" alt="0452" class="img-fluid">
+                <div class="row">
+                    <div class="col-6 "> <i>Before : 140kbs</i> </div>
+                    <div class="col-6  text-right"> <i> After : 36kbs</i></div>
+                   </div>
+            </div>
+            <div class="col-md-4  c7899" >
+                <h3>Improve Your Search Ranking </h3>
+                <p >One of Google's ranking factors is website speed. By compressing your images, you will gain precious seconds that will help your website reach the top of Google SERPS.
+                </p>
+            </div>
+            
+        </div>
+            
+        
+    </div>
+   <!-- content section ends -->
+   <div class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-3">
+                 <img src="Assets/logo-png.png" alt="logo" width="200" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <h4>Legal</h4>
+                    <a   href="#" >Terms of service</a>
+                    <a  href="#" >Privacy policy </a>
+                    <a  href="#" >Licenses</a>
+                </div>
+                <div class="col-md-3">
+                    <h4>Community</h4>
+                    <a  href="#" >Facebook</a>
+                    <a  href="#" >Twitter</a>
+                    <a  href="#" >Linkedin</a>
+                </div>
+                <div class="col-md-3">
+                    <h4>Product</h4>
+                    <a  href="#" >Pricing</a>
+                    <a  href="#" >Changelog</a>
+                    <a  href="#" >Help center</a>
+                </div>
+                <div class="col-12 footer2">
+                    <hr>
+                    <h5>Copyright © 2021 Satak Support All rights reserved.</h5>
+                    
+                </div>
+            </div>
+        </div>
+
+   </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+   <script id="rendered.js">
+     document.querySelector("#upload").onchange = function(){
+     document.querySelector("#file-name").textContent = this.files[0].name;
+    }
+     document.querySelector("#upload1").onchange = function(){
+     document.querySelector("#file-name1").textContent = this.files[0].name;
+    }
+    
+
+    $("#slider").on("input change", (e)=>{
+    const sliderPos = e.target.value;
+    // Update the width of the foreground image
+    $('.foreground-img').css('width', `${sliderPos}%`)
+    // Update the position of the slider button
+    $('.slider-button').css('left', `calc(${sliderPos}% - 23px)`) 
+   });
+  
+
+</script>
+    <script src="js/file-saver.js"></script>
+    <script src="js/jszip.min.js"></script>
+    <script src="js/compressmin.js"></script>
+
+<script src="js/frontview.js" ></script>
+   <!-- Bootstrap javascript -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  
+</body>
+</html>
